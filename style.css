@@ -4,7 +4,7 @@ margin:0; /*margem do body zerada*/
 padding:0;/*espaço interno do body zerado*/
 }
 .cabecalho{
-    background-color: beige;
+    background-color: rgb(248, 161, 204);
     display:flex;
     justify-content: space-between;/*justificar conteudos c/ espacos entre*/
     align-items: center;/*alinhamento vertical dos itens no centro*/
