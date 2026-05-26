@@ -4,7 +4,7 @@ margin:0; /*margem do body zerada*/
 padding:0;/*espaço interno do body zerado*/
 }
 .cabeçalho{
-    background-color: bisque;/*cor de fundo*/
+    background-color: rgb(59, 76, 131);/*cor de fundo*/
     display:flex; /*disposição dos elementos flexíveis*/
     justify-content: space-between;/*justificar conteudos c/ espaços entre*/
     align-items: center;/*alinhamento vertical dos itens no centro*/
