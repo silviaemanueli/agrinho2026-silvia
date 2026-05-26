@@ -1,14 +1,20 @@
-/*reset/*
+/*reset*/
 *{
 margin:0; /*margem do body zerada*/
 padding:0;/*espaço interno do body zerado*/
 }
-.cabecalho{
-    background-color: rgb(248, 161, 204);
-    display:flex;
-    justify-content: space-between;/*justificar conteudos c/ espacos entre*/
+.cabeçalho{
+    background-color: bisque;/*cor de fundo*/
+    display:flex; /*disposição dos elementos flexíveis*/
+    justify-content: space-between;/*justificar conteudos c/ espaços entre*/
     align-items: center;/*alinhamento vertical dos itens no centro*/
-    height:100px;/*altura da area do cabeçalho em 100 pixels*/
+    height:100px;/*altura da área do cabeçalho em 100 pixels*/
 }
-ul
-display
+ul{
+    display:flex; /*flexibilidade dos elementos da lista ul*/
+    justify-content: space-between; /*espaço entre os elementos*/
+}
+.cabeçalho-item-lista{
+    padding:15px; /*espaçamento interno de cada item de 15pixels*/
+    list-style-type: none;/*eliminando o ponto antes de cada item*/
+}
